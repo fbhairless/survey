@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>survey</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+<body>
+
+  <div class="container">
+    <h1>Complete Survey</h1>
+    <form id="survey">
+
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input id="name" class="form-control" type="text">
+      </div>
+      <label for="fav-food">Favorite Food:</label>
+      <div class="radio">
+        <label>
+          <input type="radio" name="fav-food" value="Mexican" checked>
+          Mexican
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="fav-food" value="Chinese">
+          Chinese
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="fav-food" value="Korean">
+          Korean
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="fav-food" value="sphagetti">
+          Sphagetti
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="fav-food" value="sushi">
+          Sushi
+        </label>
+      </div>
+        <label for="fav-music">Favorite Music:</label>
+        <select class="form-control" id="fav-music">
+          <option>Classic Rock</option>
+          <option>Reggae</option>
+          <option>Rap</option>
+          <option>Classical</option>
+        </select>
+      <div class="form-group">
+        <label for="misc-info">Miscellaneous:</label>
+        <select class="form-control" id="misc-info">
+          <option>Food</option>
+          <option>Music</option>
+        </select>
+        <input id="misc-info" class="form-control" type="text">
+      </div>
+
+
+      <button type="submit" class="btn">Submit Survey</button>
+    </form>
+
+  </div>
+
+</body>
+</html>
